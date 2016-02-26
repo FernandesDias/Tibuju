@@ -1,0 +1,6 @@
+.caixacategoria img{float: left;width: 100px;margin-right: 5px;margin-bottom: 5px;}
+.alinhado-centro{text-align: center;}
+.borda-base{border-bottom: solid 1px #BBB;}
+.borda-topo{border-top: solid 1px #BBB;}
+.espaco-vertical{padding-bottom: 10px;margin-bottom: 10px;padding-top: 10px;margin-top: 10px;}
+#cadastro-e-login{float: right;clear: none;}
