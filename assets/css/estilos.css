@@ -1,3 +1,10 @@
+	/*Regras para alterar o box model padrão*/
+*, *:before, *:after {							
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
 .caixacategoria img{float: left;width: 100px;margin-right: 5px;margin-bottom: 5px;}
 .alinhado-centro{text-align: center;}
 .borda-base{border-bottom: solid 1px #BBB;}
@@ -5,19 +12,29 @@
 .espaco-vertical{padding-bottom: 10px;margin-bottom: 10px;padding-top: 10px;margin-top: 10px;}
 #cadastro-e-login{float: right;clear: none;}
 
+
+/*Estilização header
+==============================================================================================================================*/
 .bgSizeContain {
  height: 200px;
   background: url(../img/subheader.png);
   background-size: cover;
   border: 2px solid darkgray;
-  color: #000; text-shadow: 1px 1px 0 #fff;
+  color: #000; 
+  text-shadow: 1px 1px 0 #fff;
   border:none;
 }
+
+
+
+
+
 
 .navbar-inner{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    background: yellow;
 }
 
 .navbar .nav,
